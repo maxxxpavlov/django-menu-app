@@ -1,0 +1,166 @@
+[
+  {
+    "model": "menu.menutree",
+    "pk": 1,
+    "fields": {
+      "id": 0,
+      "title": "Шампунь",
+      "parent": null,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 2,
+    "fields": {
+      "id": 1,
+      "title": "Гель для душа",
+      "parent": null,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 3,
+    "fields": {
+      "title": "Для мужчин",
+      "parent": 0,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 4,
+    "fields": {
+      "title": "Для женщин",
+      "parent": 0,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 5,
+    "fields": {
+      "title": "Для детей",
+      "parent": 0,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 6,
+    "fields": {
+      "title": "Nivea",
+      "parent": 4,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 7,
+    "fields": {
+      "title": "Для секущихся волос",
+      "parent": 4,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 8,
+    "fields": {
+      "title": "Шампунь против перхоти",
+      "parent": 3,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 9,
+    "fields": {
+      "title": "Не щиплет глаза",
+      "parent": 5,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 10,
+    "fields": {
+      "title": "Без запаха",
+      "parent": 3,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 10,
+    "fields": {
+      "title": "Медицинский препарат",
+      "parent": 8,
+      "menuName": "for_home"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 11,
+    "fields": {
+      "title": "Пюре",
+      "parent": null,
+      "menuName": "food_for_kids"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 12,
+    "fields": {
+      "title": "Овощное",
+      "parent": 11,
+      "menuName": "food_for_kids"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 13,
+    "fields": {
+      "title": "Фруктовое",
+      "parent": 11,
+      "menuName": "food_for_kids"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 14,
+    "fields": {
+      "title": "Мясное",
+      "parent": 11,
+      "menuName": "food_for_kids"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 15,
+    "fields": {
+      "title": "Молочные смеси",
+      "parent": null,
+      "menuName": "food_for_kids"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 16,
+    "fields": {
+      "title": "Сухие",
+      "parent": 15,
+      "menuName": "food_for_kids"
+    }
+  },
+  {
+    "model": "menu.menutree",
+    "pk": 17,
+    "fields": {
+      "title": "Жидкие",
+      "parent": 15,
+      "menuName": "food_for_kids"
+    }
+  }
+]

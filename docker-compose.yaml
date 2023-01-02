@@ -1,0 +1,25 @@
+version: '3.1'
+
+services:
+  menu-app:
+    build: .
+    restart: always
+    ports:
+      - 8000:8000
+    environment:
+      - DB_HOST=db
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      # Use postgres/example user/password credentials
+      POSTGRES_PASSWORD: example
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
