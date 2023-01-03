@@ -8,4 +8,4 @@ COPY . /app
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "python", "manage.py", "runserver" ]
+ENTRYPOINT [ "sh", "startup.sh" ]

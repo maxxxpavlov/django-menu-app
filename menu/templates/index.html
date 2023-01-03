@@ -5,18 +5,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="{%static 'normalize.css'%}">
+    <link rel="stylesheet" href="{%static 'simplestyles.css'%}">
   </head>
 <body>
-
-<h1>Товары для дома</h1>
-{% draw_menu 'for_home' selectedHomeElementId %}
-
-<h1>Детское питание</h1>
-
-
-{% draw_menu 'food_for_kids' selectedFoodElementId %}
-
-
+  <div class="menu">
+    <h1>Товары для дома</h1>
+    {% draw_menu 'for_home' selectedHomeElementId %}
+  </div>
+  <div class="menu">
+    <h1>Детское питание</h1>
+    {% draw_menu 'food_for_kids' selectedFoodElementId %}
+  </div>
 </body>
 </html>
 
